@@ -61,9 +61,6 @@ const server = http.createServer((req, res) => {
             }
         })
     }
-    // res.writeHead(200)
-    // res.write('hello')
-    // res.end()
 })
 
 server.listen(8888)
